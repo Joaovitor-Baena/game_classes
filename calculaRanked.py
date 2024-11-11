@@ -4,7 +4,7 @@ loseNick = [0 , 8 , 2 , 3 , 14 , 30 , 10 ]
 
 def rankControl():
     i = 0
-    while i > len(nicknames) :
+    while i < len(nicknames) :
         nick = nicknames[i]
         win = winNick[i]
         lose = loseNick[i]
