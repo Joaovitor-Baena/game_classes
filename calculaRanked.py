@@ -12,7 +12,7 @@ def rankControl():
 
         nRank = calculateRank(win , lose)
         classified = classifyRank(nRank)
-        print(f"The player {nick} have a {nRank} wins and your level is {classified}!!")
+        print(f"The player {nick} have {nRank} wins and your level is {classified}!!")
         i += 1
 
 def calculateRank(nWin , nLose):
